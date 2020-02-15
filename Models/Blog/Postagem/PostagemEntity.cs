@@ -1,4 +1,5 @@
 ﻿using Blog.Models.Blog.Autor;
+using Blog.Models.Blog.Categoria;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,6 +17,7 @@ namespace Blog.Models.Blog.Postagem
 
         public string Titulo;
         public AutorEntity Autor;
+        public CategoriaEntity Categoria;
 
         public virtual string editar() // Polimorfismo
         {
